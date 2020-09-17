@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <!--didapat dari google fonts-->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+            rel="stylesheet">
+        <!--didapat dari fontawesome yang berguna untuk menambahkan sebuah icon pada tampilan-->
+        <script src="https://kit.fontawesome.com/00f2e50428.js"
+            crossorigin="anonymous"></script>
+        <title>Latihan 3</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="title">My Website</div>
+                <ul>
+                    <li><a href="lat3..html"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i>About</a></li>
+                    <li><a href="contact.html"><i class="fas
+                                fa-phone-square-alt"></i>Contact</a></li>
+                </ul>
+            </div>
+            <!--hero/foto-->
+            <div class="hero"></div>
+            <!--konten-->
+            <div class="content cf">
+                <div class="left">
+                    <h2> Belajar CSS</h2>
+                    <p class="created_by">ditulis oleh, <i class="fas fa-user
+                            fa-sm"></i> <a
+                            href="#">Vina Velina</a>. Pada 14 September 2020</p>
+                    <div class="article">
+                        <p>Cascading Style Sheet (CSS) adalah pakaian dan
+                            aksesorisnya yang
+                            membuat penampilan seseorang menjadi menarik.CSS
+                            berfungsi untuk memisahkan konten dari tampilan
+                            visualnya di situs. CSS
+                            dibuat dan dikembangkan oleh W3C (World Wide Web
+                            Consortium) pada tahun 1996 untuk alasan
+                            yang sederhana.</p>
+                        <p>CSS menggunakan bahasa Inggris sederhana berbasis
+                            syntax yang dilengkapi dengan sekumpulan
+                            rule yang mengaturnya. Seperti yang telah disebutkan
+                            sebelumnya, HTML tidak dibuat untuk
+                            menerapkan elemen style, hanya markup halaman saja.
+                            HTML dirancang semata-mata untuk
+                            mendeskripsikan konten. Satu yang menjadi
+                            pertanyaannya sekarang, bagaimana caranya style
+                            paragraf? Struktur syntax
+                            CSS cukup sederhana. Struktur ini memiliki selector
+                            dan declaration block. Pilih elemen yang
+                            diinginkan, kemudian deklarasi (declare) yang harus
+                            dilakukan terhadap elemen tersebut. Selector
+                            mengarah ke elemen HTML yang ingin diubah
+                            tampilannya. Declaration block memuat satu atau
+                            lebih banyak deklarasi (declaration) yang dipisahkan
+                            dengan tanda titik koma. </p>
+                        <p>Inline stylesheet. Aturan CSS ditulis langsung pada
+                            tag HTML yang akan diatur
+                            tampilannya. CSS Style Inline menggunakan elemen
+                            spesifik yang memuat tag style.
+                            Karena setiap komponen harus di-stylize, maka Inline
+                            bukan metode yang tepat jika Anda
+                            ingin menggunakan CSS dengan cepat. Internal
+                            stylesheet. Aturan CSS ditulis pada bagian HEAD
+                            dokumen HTML menggunakan
+                            tag. CSS Style Internal diload setiap kali website
+                            di-refresh, dan kekurangannya adalah
+                            waktu loading semakin lama. CSS style yang sama pun
+                            tidak dapat digunakan di halaman
+                            lain karena sudah aktif terlebih dulu di suatu
+                            halaman.Eksternal stylesheet. Aturan CSS disimpan
+                            pada suatu file sehingga terpisah dari dokumen
+                            HTML. Kemudian tambahkan kode pemanggilan file CSS
+                            dalam dokumen head HTML.
+                            External merupakan CSS style yang paling mudah dan
+                            tidak menyulitkan. Semuanya
+                            dilakukan secara eksternal pada file .css. Styling
+                            dilakukan di file terpisah, lalu terapkan
+                            CSS ke halaman mana pun yang diinginkan.</p>
+                        <p>Pada dasarnya ketiga cara penerapan CSS yang telah
+                            dibahas sebelumnya memiliki aturan
+                            penulisan (sintaks) yang sama.Terdapat selector
+                            untuk menandai element yang akan menggunakan style.
+                            Selector dapat berupa
+                            tag a, p, dll pada semua tag yang telah dijelaskan
+                            sebelumnya. Selector juga bisa berupa
+                            class, dan element id.</p>
+                        <p> • Selector tag
+                            Selector tag biasnya digunakan apabila semua tag
+                            yang dimaksud p memiliki property desain yang sama.</p>
+                        <p>• Selector class
+                            Disamping menggunakan tag HTML sebagai selektor,
+                            sering selektor juga berupa kelas.
+                            Kegunaan kelas adalah agar aturan CSS dapat
+                            diterapkan tidak hanya pada satu jenis tag
+                            HTML saja.</p>
+                        <p>• Selector id
+                            Hampir sama cara penulisan dengan selector class
+                            hanya dibedakan menggunakan tanda
+                            (#). Namun yang berbeda adalah, penulisan
+                            selector dengan element id seperti ini hanya
+                            dapat digunakan oleh satu element saja. Walaupun
+                            terdapat beberapa element id (paraf),
+                            hanya satu element id yang terpengaruh oleh
+                            style yang telah diatur sebelumnya.</p>
+                        <p>CSS menggunakan konsep ini dalam mengatur tag-tag
+                            HTML. Pada gambar 3.3, bayangkan area
+                            ‘Content’ misalnya adalah sebuah paragrap. Obyek
+                            paragrap ini akan dianggap CSS memiliki area
+                            padding, border, dan margin disekitarnya. Keberadaan
+                            area-area ini berguna untuk pengaturan tata
+                            letak. Misalnya ingin diatur agar 2 buah gambar yang
+                            terletak berdampingan tidak terlalu rapat,
+                            maka kita dapat memperbesar lebar dari area margin
+                            agar jarak antara gambar lebih lebar.</p>
+                        <p>1. Width dan Height
+                            Width merepresentasikan lebar element, sedangkan
+                            height untuk tinggi element. Terdapat
+                            beberapa cara untuk mengatur property ini antara
+                            lain menggunakan pixel (px) ataupun
+                            menggunakan persentase element parent.</p>
+                        <p>2. Margin dan Padding
+                            Seperti pada konsep box model, property padding
+                            digunakan untuk memberikan ruang
+                            kosong antara tepi element dengan isinya, sedangkan
+                            margin digunakan untuk memberikan
+                            jarak antar element.</p>
+                        <p>3. Float
+                            Untk membagi halaman web menjadi dua bagian kiri dan
+                            kanan masing-masing lebarnya
+                            60% dan 40% memerlukan properti float CSS. Properti
+                            ini akan membuat, seperti arti
+                            namanya, obyek HTML melayang. Karena melayang, maka
+                            obyek HTML (misalnya
+                            gambar) tidak terikat dengan ketentuan yang berlaku,
+                            seperti lebar layar browser, sehingga
+                            dapat diletakkan melewati batas layar browser, atau
+                            saling ditumpuk satu dengan lainnya.</p>
+                        <p>4. CSS Navigation
+                            Navigasi merupakan hal yang penting dalam
+                            pengembangan sebuah website. Beberapa
+                            navigasi ditampilkan secara horizontal. Untuk
+                            membuat navigasi horizontal, maka pada
+                            element tersebut membutuhkan property float.</p>
+                        <p>5. Pseudo-Classes
+                            Pseudo-class dapat digunakan untuk memberikan
+                            effetct pada navigasi baik ketika mouser
+                            hover, click, atau visited.</p>
+                        <p>6. Fonts family
+                            Font menjadi hal penting dalam desain sebuah
+                            website. Dalam satu halaman website,
+                            banyak jenis font tentu akan membuat website kurang
+                            manis. Begitu pula pemilihan jenis
+                            font yang kurang tepat, dapat membuat pengunju
+                            kurang nyaman dalam membaca
+                            informasi. Sebelm menggunakan font, maka sebaiknya
+                            pastika paket font telah disimpan
+                            dalam folder lokal, atau yang paling sederhana
+                            adalah import dari font google.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="about">
+                        <h2>Tentang Saya</h2>
+                        <img src="img/vina.jpeg" alt="foto_vina">
+                        <p>Hallo... </p>
+                        <p>Perkenalkan nama saya Vina Velina. Saya merupakan
+                            mahasiswa dari Universitas Pendidikan Ganesha.
+                            Jurusan yang saya ambil yaitu Teknik
+                            Informatika,dengan Prodi Pendidikan Teknik
+                            Informatika</p>
+                    </div>
+                    <div class="repository">
+                        <h2> Riwayat Pendidikan</h2>
+                        <ul class="study">
+                            <li><a href="#">Pendidikan</a>
+                                <ul class="pendidikan">
+                                    <li><a
+                                            href="http://sekolah.data.kemdikbud.go.id/index.php/chome/profil/80e99b14-31f5-e011-9eef-8d7204432cda">SD
+                                            N 4 KALIUNTU</a></li>
+                                    <li><a
+                                            href="http://www.smpn1singaraja.sch.id/">SMP
+                                            N 1 SINGARAJA</a></li>
+                                    <li><a
+                                            href="https://smansasingaraja.sch.id/">SMA
+                                            N 1 SINGARAJA</a></li>
+                                    <li><a href="https://undiksha.ac.id/">UNIVERSITAS
+                                            PENDIDIKAN
+                                            GANESHA</a></li>
+                                </ul>
+                            </ul>
+                        </div>
+                        <div class="video_saya">
+                            <h2>Video Terbaru</h2>
+                            <iframe
+                                src="https://www.youtube.com/embed/ieTHC78giGQ"
+                                frameborder="0" allow="accelerometer; autoplay;
+                                encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <p class="copyright"> Coppyright &copy; 2020, Vina</p>
+                </div>
+            </div>
+
+        </body>
+    </html>
